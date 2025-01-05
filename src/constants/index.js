@@ -1,7 +1,7 @@
 import project1 from "../assets/projects/project-1.png";
 import project2 from "../assets/projects/project-2.png";
-import project3 from "../assets/projects/project-3.jpg";
-import project4 from "../assets/projects/project-4.jpg";
+import project3 from "../assets/projects/project-3.png";
+import project4 from "../assets/projects/project-4.png";
 
 export const HERO_CONTENT = `Aspiring Web Developer with skills in HTML, CSS, JavaScript,Tailwind CSS and React  Currently learning MERN stack development through an Internshala course. Committed to building responsive and user-friendly web applications.`;
 
@@ -57,17 +57,19 @@ export const PROJECTS = [
   },
   {
     title: "Portfolio Website",
+    link:"#",
     image: project3,
     description:
       "A personal portfolio website showcasing projects, skills, and contact information.",
-    technologies: ["HTML", "CSS", "React", "Bootstrap"],
+    technologies: ["HTML", "CSS","Tailwindcss", "React"],
   },
   {
-    title: "Blogging Platform",
+    title: "Weather App",
+    link:"https://weather2312.netlify.app/",
     image: project4,
     description:
-      "A platform for creating and publishing blog posts, with features like rich text editing, commenting, and user profiles.",
-    technologies: ["HTML", "CSS", "Vue.js", "Express", "mySQL"],
+      "Stay updated with real-time weather forecasts,Wind Speed, temperature, and conditions. Simple, accurate, and user-friendly for everyday use.",
+    technologies: ["HTML", "CSS","javascript"]
   },
 ];
 
